@@ -115,7 +115,8 @@ std::vector<std::string> TrojanMap::Autocomplete(std::string name) {
   for (auto it = data.begin(); it != data.end(); it++){
     if (it->second.name.empty()){
       continue;
-    }else{
+    }
+    else{
       std::string new_data = it->second.name;
       for (auto &elem : new_data){
         elem = std::tolower(elem);
