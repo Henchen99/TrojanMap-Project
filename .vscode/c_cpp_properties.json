@@ -1,15 +1,14 @@
 {
   "configurations": [
     {
-      "name": "Mac",
+      "name": "linux-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/src/lib",
-        "${workspaceFolder}/src/lib/*",
-        "/usr/local/include",
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/",
-        "${workspaceFolder}/opencv/install/include/opencv4",
-        "${workspaceFolder}"
-      ]
+        "${workspaceFolder}/**"
+      ],
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "compilerPath": "/usr/bin/gcc",
+      "intelliSenseMode": "linux-gcc-x64"
     }
   ],
   "version": 4
