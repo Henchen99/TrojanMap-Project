@@ -164,6 +164,22 @@ std::string TrojanMap::FindClosestName(std::string name) {
  */
 std::vector<std::string> TrojanMap::Autocomplete(std::string name) {
   std::vector<std::string> results;
+  for(auto &elem : name){
+    elem = std::tolower(elem);
+  }
+  for (auto it = data.begin(); it != data.end(); it++){
+    if (it->second.name.empty()){
+      continue;
+    }else{
+      std::string new_data = it->second.name;
+      for (auto &elem : new_data){
+        elem = std::tolower(elem);
+      }
+      if (name == new_data.substr(0, name.size())){
+        results.push_back(it->second.name);
+      }
+    }
+  }
   return results;
 }
 
