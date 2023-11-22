@@ -79,8 +79,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
+<<<<<<< HEAD
       "cwd": "/home/henchen99/fall23-trojanmap-Henchen99/tests",
       "program": "/home/henchen99/fall23-trojanmap-Henchen99/tests/build/Debug/outDebug",
+=======
+      "cwd": "/home/henchen99/TrojanMap-Project/bazel-TrojanMap-Project/src/lib",
+      "program": "/home/henchen99/TrojanMap-Project/bazel-TrojanMap-Project/src/lib/build/Debug/outDebug",
+>>>>>>> 412c6b5d8723eb17ab0adf7374b5c9da37f1cd5a
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

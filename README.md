@@ -241,8 +241,12 @@ Time taken by function: 2 ms
 ```
 
 - What is the runtime of your algorithm? 
+<<<<<<< HEAD
 
 O(n)
+=======
+o(n)
+>>>>>>> 412c6b5d8723eb17ab0adf7374b5c9da37f1cd5a
 - (Optional) Can you do it faster than `O(n)`?
 
 ## Item 2-1: Find the place's coordinates in the Map (Phase 1)
